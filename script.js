@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 function checkCollision() {
     var blueLeft = $("#blue").offset().left;
     var redLeft = $("#red").offset().left;
@@ -23,3 +25,4 @@ $("body").keydown(function(event) {
         checkCollision();
 });
 
+});
